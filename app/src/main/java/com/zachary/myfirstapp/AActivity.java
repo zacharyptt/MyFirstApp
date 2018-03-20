@@ -32,6 +32,7 @@ public class AActivity extends AppCompatActivity {
         builder.setContentTitle("嗑藥時間到囉");
         builder.setContentText("該吃藥囉");
         builder.setDefaults(Notification.DEFAULT_SOUND);
+        builder.setWhen(System.currentTimeMillis()+50000000);
 
 
 

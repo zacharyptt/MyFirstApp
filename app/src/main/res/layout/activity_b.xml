@@ -7,24 +7,23 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="歡迎"
-        android:textSize="100dp"/>
-    <Button
-        android:id="@+id/btn_B"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="基本資料"
+        android:text="姓名"
         android:textSize="50dp"/>
-    <Button
-        android:id="@+id/btn_A"
-        android:layout_width="wrap_content"
+    <EditText
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:text="用藥提醒"
-        android:textSize="50dp"/>
+        android:id="@+id/et_A"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="醫院資訊"
-        android:textSize="50dp"/>
+        android:text="確定"
+        android:textSize="30dp"
+        android:id="@+id/btn_A"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="你的名字是"
+        android:textSize="30dp"
+        android:id="@+id/tv_A"/>
 
 </LinearLayout>
