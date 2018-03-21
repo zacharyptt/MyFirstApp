@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">練習程式</string>
+    <string-array name="time_lise">
+        <item>將在早上9點,下午1點,晚上6點提醒</item>
+        <item>將在早上8點,中午12點,下午5點提醒</item>
+    </string-array>
 </resources>

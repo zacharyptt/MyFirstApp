@@ -17,7 +17,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".AActivity" />
-        <activity android:name=".ActivityC" />
         <activity android:name=".BActivity"></activity>
     </application>
 
