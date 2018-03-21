@@ -20,7 +20,8 @@ public class AActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_a);
 
-
+        sp = (Spinner) findViewById(R.id.spinner);
+        sp.setOnItemSelectedListener(spn);
 
 
 
@@ -48,8 +49,7 @@ public class AActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 manager.notify(1001,builder.build());
-                sp = (Spinner) findViewById(R.id.spinner);
-                sp.setOnItemSelectedListener(spn);
+
             }
         });
 
